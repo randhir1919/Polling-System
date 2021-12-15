@@ -1,0 +1,474 @@
+@charset "ISO-8859-1";
+
+.loginBox {
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+
+.loginBox h1{
+    margin: 0;
+    padding: 30 0 20px;
+    color:#1E90FF;
+    text-align: center;
+}
+.loginBox p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"], .loginBox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.loginBox input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.loginBox a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+::placeholder
+{
+    color: rgba(255,255,255,0.5) ;
+}
+
+
+.re {
+    width: 500px;
+    height: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 220px 86px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+.re h1{
+    margin: 0;
+    padding: 31px 0 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+.re p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.re input {
+    width: 100%;
+    margin-bottom:8px;
+    outline: none;
+}
+.re input[type="text"], .re input[type="password"], .re input[input="email"], .re input[input="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.re input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.re input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+::placeholder
+{
+    color: rgba(255,255,255,0.5) ;
+}
+
+
+.cre {
+    width: 500px;
+    height: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 220px 86px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+.cre h1{
+    margin: 0;
+    padding: 31px 0 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+.cre p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.cre input {
+    width: 100%;
+    margin-bottom: 6px;
+    outline: none;
+}
+.cre input[type="text"], .re input[type="password"], .re input[input="email"], .re input[input="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.cre input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.cre input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+
+.voter {
+    width: 640px;
+    height: 574px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+.vu {
+    width: 535px;
+    height: 870px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 92px 126px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+.vu h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+}
+.vu p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.vu input {
+    width: 100%;
+    margin-bottom: 17px;
+    outline: none;
+}
+.vu input[type="text"], .re input[type="password"], .re input[input="email"], .re input[input="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.vu input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.vu input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+
+.cu {
+    width: 537px;
+    height: 948px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 99px 126px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+.cu h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+}
+.cu p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.cu input {
+    width: 100%;
+    margin-bottom: 17px;
+    outline: none;
+}
+.cu input[type="text"], .re input[type="password"], .re input[input="email"], .re input[input="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.cu input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.cu input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+
+.vm {
+    width: 562px;
+    height: 459px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 92px 126px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+.vm h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+}
+.vm p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+}
+.vm input[type="text"], .re input[input="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.vm input[type="submit"] {
+    border: none;
+    outline:none;
+    height: 62px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.vm input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.cm {
+    width: 562px;
+    height: 459px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 92px 126px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+
+.cm p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+.cm input[type="text"], .re input[input="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.cm input[type="submit"] {
+    border: none;
+    outline:none;
+    height: 62px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.cm input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.cm a{
+    font-size: 25px;
+    background-color: yellow;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin:auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("13.jpeg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+    columns: #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 25px;
+}
+.nav-area li a:hover {
+    background: #fff;
+    color: #333;
+}
+.ab {
+    width: 409px;
+    height: 455px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 114px 135px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6) ;
+}
+.ab a {
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.ab h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color:#fff;
+    text-align: center;
+    font-size: 25px;
+}
+.ab button {
+    font-family: Oswald;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 57px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.428571429;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   border: 1px solid transparent;
+   border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+}
